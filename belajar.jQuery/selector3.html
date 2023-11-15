@@ -1,0 +1,24 @@
+<ul id="destinations">
+    <li>Bandung</li>
+    <li>jakarta</li>
+       <ul>
+          <li>jakarta pusat</li>
+          <li>jakarta utara</li>
+          <li>jakarta selatan</li>
+          <li>jakarta barat</li>
+          <li>jakarta timur</li>
+       </ul>
+    <li>surabaya</li>
+    <li>bali</li>
+</ul>
+<button>aksi</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+    $("button").click(function()
+    {
+        $("#destinations li").css("background-color", "blue");
+    });
+});
+</script>
